@@ -6,6 +6,6 @@ def oxford_comma(array)
     array.join
   end
   if array.length > 2
-    puts "testing"
+    array[0..-2].join(", ")
   end
 end
